@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClinet = axios.create({
-    baseURL: 'https://swiftcart-g6dwdmajg0f2g2bd.southindia-01.azurewebsites.net',
+    baseURL: 'https://swiftcart-g6dwdmajg0f2g2bd.southindia-01.azurewebsites.net/swift-cart',
     headers: {
         'Content-Type': 'application/json',
     },
