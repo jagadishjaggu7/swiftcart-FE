@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 470px;
+}
+
+.input-group {
+  margin-bottom: 35px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  display: block;
+
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: brown;
+  outline: none;
+}
+
+.password-group {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login-button {
+  padding: 10px;
+  margin-top: -6px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.login-button:hover {
+  background-color: darkbrown;
+}
+
+.signup {
+  color: brown;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-[black] {
+  font-size: 14px;
+}
+
+.signup:hover {
+  text-decoration: underline;
+}
+
+.Login-shift {
+  font-size: 28px;
+  font-weight: normal;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 15px;
+}
+
+.Login-shift1 {
+  font-size: 17px;
+  margin-top: -6px;
+  font-weight: normal;
+  font-family: 'Lexend', sans-serif;
+  margin-bottom: 15px;
+}
+
+.forgot-password {
+  margin-top: 19px;
+  margin-left: -192px;
+  cursor: pointer;
+  text-align: center;
+  color: brown;
+}
+
+.validate-color {
+  color: brown;
+}

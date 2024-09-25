@@ -1,0 +1,21 @@
+// FE Side Data
+{
+    "firstName": "bijjam ",
+    "lastName": "Vijay",
+    "phoneNumber": "9491467216",
+    "alternateNumber": "9557740960",
+    "email": "bijjamvijayreddy@gmail.com",
+    "password": "Vijaybijjam1@",
+    "agree": true
+}
+// BE Side Data;
+{
+    "id": 0,
+    "firstName": "Appy  ",
+    "lastName": "bippy sippy",
+    "userMobile": 7891216788,
+    "alterMobile": 7891216788,
+    "userEmail": "sippy@gmail.com",
+    "userPassword": "Sippy@1234#",
+    "isAccepted": true
+}
